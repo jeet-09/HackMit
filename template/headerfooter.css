@@ -1,0 +1,73 @@
+*, html {
+    margin:0;
+    padding:0;  
+    font-family: 'Roboto','sans-serif';
+}
+
+body{
+    background-color: #f8f8f8;
+}
+.header {
+    margin:0;
+    background-color: #019267;
+    color:#fff;
+    height:162px;
+}
+
+.top-header{
+    margin-left: 36px;
+    padding-top:24px;
+}
+
+.location-header{
+    padding-top:24px;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.location-header img{
+    height: 26px;
+    width:26px;
+    float: left;
+}
+
+h6{
+    margin-left: 12px;
+}
+
+.options 
+{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 80px;
+}
+.cafe , .canteen , .mess, .tiffin{
+    height:232px;
+    width: 232px;
+    border-color: black;
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 15px 15px;
+    margin:30px;
+}
+
+.options h2{
+    padding-left: 80px;
+}
+
+.footer{
+    height: 53px;
+    background-color: #019267;
+    position: absolute;
+    top:845px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    height: 36px;
+    width:36px;
+}

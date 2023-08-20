@@ -1,0 +1,293 @@
+*, html {
+    margin:0;
+    padding:0;  
+    font-family: 'Roboto','sans-serif';
+}
+
+
+.header {
+    margin:0;
+    background-color: #019267;
+    color:#fff;
+    height:162px;
+}
+
+.top-header{
+    margin-left: 36px;
+    padding-top:24px;
+}
+
+.location-header{
+    padding-top:24px;
+    font-weight: lighter;
+    padding-left: 30px;
+}
+
+.location-header img{
+    height: 26px;
+    width:26px;
+    float: left;
+}
+
+.fonts{
+    margin-left: 12px;
+    font-size: 12px;
+}
+
+/*my order*/
+
+.orders{
+    color: #3cbd2b;
+    position: relative;
+    left: 40px;
+    top: 6rem;
+    width: 177px;
+    height: 43px;
+}
+
+.container{
+    position: relative;
+    top: 4.5rem;
+    left: 40px;
+    height: 120px;
+    width:  310px;
+    border-width: 0.5px;
+    color:black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 35px;
+}
+
+.container-1{
+    position: relative;
+    top: 4.5rem;
+    left: 40px;
+    height: 120px;
+    width:  310px;
+    border-width: 0.5px;
+    color:black;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 35px;
+
+   /*-webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);*/
+
+
+}
+
+.order_number{
+  font-weight: bold;
+  font-size: 0.9rem;
+ position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.date{
+  font-weight: lighter;
+  font-size: .7rem;
+position: relative;
+    left: 10px;
+    top: 10px;
+}
+
+.canteen_name{
+    position: relative;
+    top: 25px;
+    font-size: 0.9rem;
+    left: 10px;
+   
+}
+
+.food_items{
+    position: relative;
+    left: 35px;
+    top: 1.7rem;
+    font-size: 0.7rem;
+}
+
+.qr_img{
+    position: relative;
+    left: 11rem;
+    bottom: 5.3rem;
+    height: 7rem;
+    padding-top: 12px;
+    padding-left: 20px;
+
+}
+
+.qr_img-1{
+    position: relative;
+    left: 11rem;
+    bottom: 5.3rem;
+    height: 7rem;
+    padding-top: 12px;
+    padding-left: 20px;
+
+   -webkit-filter: blur(3px);
+    -moz-filter: blur(3px);
+    -o-filter: blur(3px);
+    -ms-filter: blur(3px);
+    filter: blur(3px);
+
+}
+
+/*footer*/
+
+.footer{
+    height: 53px;
+    background-color: #019267;
+    position: sticky;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer img{
+    padding: 33.5px;
+    height: 36px;
+    width:36px;
+}
+
+/*my profile*/
+
+.profile{
+    color: #3cbd2b;
+    position: relative;
+    margin-left: 10rem;
+    top: 6rem;
+    font-size: 24px;
+}
+
+.user-icon{
+    height: 10rem;
+    position: relative;
+    left: 7.9rem;
+    top: 5.5rem;
+}
+
+.form{
+    margin-top: 5rem;
+    margin-left: 6.5rem;
+    left: 8rem;
+    padding: 10px;
+    padding-top: 10px;
+}
+
+.name{
+    margin-top: 5px;
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+}
+
+.email{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.phone-number{
+    height: 30px;
+    width: 200px;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+
+.btn{
+    margin-left: 2.5rem;
+    height: 55px;
+    width: 116px;
+    border-radius: 15px; 
+    background-color: #019267;
+    cursor: pointer;
+}
+
+/*payment*/
+
+.payment{
+    color: #3cbd2b;
+    margin-left: 100px;
+    font-size: 24px;
+    margin-top: 55px;
+    margin-right: 40px;
+}
+
+   /*payment*/
+
+.offers{
+    width: 287px;
+    height: 52px;
+    border-style: solid;
+    border-radius: 5px;
+    margin-top: 35px;
+    border-radius: 15px;
+    margin-left: 3.5rem;
+}
+
+.offers-img{
+    height: 2rem;
+   position: relative;
+    left: 52px;
+    top: 10px;
+}
+.offers-text{
+    margin-left: 6rem;
+    font-size: 1.4rem;
+}
+
+.cards{
+     color: #3cbd2b;
+    margin-left: 75px;
+    font-size: 24px;
+    margin-top: 55px;
+    margin-right: 40px;
+}
+
+.btn-offers{
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 287px;
+    height: 52px;
+    border-style: solid;
+    border-radius: 5px;
+   border-radius: 15px;
+
+}
+
+.bank{
+    height: 50px;
+    width: 287px;
+    border-style: solid;
+    border-radius: .5px;
+   border-radius: 15px;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.main-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.bank p{
+    margin-left: 30px;
+    margin-top: 20px;
+    font-size: 1.1rem;
+}
+
+.btn-p {
+    background: #019267;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 8rem;
+    margin-top: 2rem;
+}
